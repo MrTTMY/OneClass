@@ -1,0 +1,92 @@
+/*
+---------------------------------------------------
+OneClass v1.0(Beta)
+Author : Toe Tatt Moe Yan
+---------------------------------------------------
+*/
+
+
+/*	Dropdown	*/
+.ttmy.oc-dropdown, .ttmy.oc-dropdown.oc-dark {
+display: inline-block;
+position: relative;
+}
+
+.ttmy.oc-dropdown ol,
+.ttmy.oc-dropdown ul,
+.ttmy.oc-dropdown button {
+background-color: #fff;
+color: #222;
+border: 1px solid #ccc;
+}
+
+.ttmy.oc-dropdown.oc-dark ol,
+.ttmy.oc-dropdown.oc-dark ul,
+.ttmy.oc-dropdown.oc-dark button {
+background-color: #444;
+color: #fff;
+}
+
+.ttmy.oc-dropdown a,
+.ttmy.oc-dropdown button {
+position: relative;
+display: block;
+padding: 7px 15px;
+cursor: pointer;
+line-height: 1.5
+outline: 0;
+text-decoration: none;
+-webkit-transition: background-color 0.22s ease-in-out, color 0.22s ease-in-out;
+transition: background-color 0.22s ease-in-out, color 0.22s ease-in-out;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+vertical-align: middle;
+white-space: nowrap;
+width: 100%;
+}
+
+.ttmy.oc-dropdown a {
+color: inherit;
+text-align: inherit;
+}
+
+.ttmy.oc-dropdown button {
+border-radius: 4px;
+text-align: center;
+}
+
+.ttmy.oc-dropdown ol, .ttmy.oc-dropdown ul {
+position: absolute;
+display: none;
+left: 0;
+top: calc(100% + 2px);
+border-radius: 5px;
+list-style: none;
+margin: 0;
+min-width: 145px;
+padding: 12px 0;
+z-index: 88;
+}
+
+.ttmy.oc-dropdown a:hover,
+.ttmy.oc-dropdown:hover button {
+background-color: #444;
+color: #fff
+}
+
+.ttmy.oc-dropdown.oc-dark a:hover,
+.ttmy.oc-dropdown.oc-dark:hover button {
+background-color: #fff;
+color: #222;
+}
+
+.ttmy.oc-dropdown:hover > ol,
+.ttmy.oc-dropdown:hover > ul {
+display: block;
+}
+
+
+
+
