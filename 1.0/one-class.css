@@ -7,6 +7,9 @@ Author : Toe Tatt Moe Yan
 
 
 /*	Dropdown	*/
+.red {
+color: red;
+}
 .ttmy.oc-dropdown, .ttmy.oc-dropdown.oc-dark {
 display: inline-block;
 position: relative;
